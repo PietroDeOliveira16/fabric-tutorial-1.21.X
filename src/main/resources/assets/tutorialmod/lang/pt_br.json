@@ -1,0 +1,12 @@
+{
+  "item.tutorialmod.silly_cat": "Gato Bobinho",
+  "item.tutorialmod.silly_ingot": "Barra Bobinha",
+  "item.tutorialmod.rose_bouquet": "Buquê de Rosas",
+  "item.tutorialmod.pink_rose_bouquet": "Buquê de Flores Rosas",
+
+  "block.tutorialmod.silly_ingot_block": "Bloco de Barra Bobinha",
+  "block.tutorialmod.pink_garnet_block": "Bloco de Granada Rosa",
+
+  "itemgroup.tutorialmod.silly_cat_items": "Itens do Gato Bobinho",
+  "itemgroup.tutorialmod.garnet_items": "Itens fodase do Tutorial"
+}

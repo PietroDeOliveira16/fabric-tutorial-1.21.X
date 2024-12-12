@@ -20,7 +20,7 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 
-		ModItems.registerModItems();
+		ModItems.registerModItemsToVanillaGroups();
 		ModBlocks.registerModBlocks();
 	}
 }
