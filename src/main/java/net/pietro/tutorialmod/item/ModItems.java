@@ -20,9 +20,9 @@ public class ModItems {
     public static void registerModItems () {
         TutorialMod.LOGGER.info("Registering Mod Items for " + TutorialMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(SILLY_CAT);
-            fabricItemGroupEntries.add(SILLY_INGOT);
-        });
+        /*ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(ModItems.SILLY_CAT);
+            fabricItemGroupEntries.add(ModItems.SILLY_INGOT);
+        });*/
     }
 }

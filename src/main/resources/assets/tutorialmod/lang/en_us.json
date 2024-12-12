@@ -1,4 +1,10 @@
 {
   "item.tutorialmod.silly_cat": "Silly Cat",
-  "item.tutorialmod.silly_ingot": "Silly Ingot"
+  "item.tutorialmod.silly_ingot": "Silly Ingot",
+
+  "block.tutorialmod.silly_ingot_block": "Block of Silly Ingot",
+  "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
+
+  "itemgroup.tutorialmod.silly_cat_items": "Silly Cat Items",
+  "itemgroup.tutorialmod.garnet_items": "Boring Garnet Items"
 }
