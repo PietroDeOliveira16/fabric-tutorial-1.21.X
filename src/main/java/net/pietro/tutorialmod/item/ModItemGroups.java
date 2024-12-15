@@ -20,6 +20,9 @@ public class ModItemGroups {
                       entries.add(ModItems.SILLY_CAT);
                       entries.add(ModItems.SILLY_INGOT);
                       entries.add(ModBlocks.SILLY_INGOT_BLOCK);
+                      entries.add(ModBlocks.SILLY_ORE_BLOCK);
+                      entries.add(ModBlocks.SILLY_DEEPSLATE_ORE_BLOCK);
+                      entries.add(ModBlocks.SILLY_CAT_BLOCK);
                     }).build());
 
     public static final ItemGroup GARNET_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -29,6 +32,15 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.tutorialmod.garnet_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
+                    }).build());
+
+    public static final ItemGroup LEGENDARY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "legendary_items"),
+            FabricItemGroup.builder()
+                    .icon(() -> new ItemStack(ModItems.PICK_BENI))
+                    .displayName(Text.translatable("itemgroup.tutorialmod.legendary_items"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.PICK_BENI);
                     }).build());
 
     public static void registerItemGroups(){

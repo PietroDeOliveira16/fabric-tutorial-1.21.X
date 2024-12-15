@@ -3,10 +3,15 @@
   "item.tutorialmod.silly_ingot": "Silly Ingot",
   "item.tutorialmod.rose_bouquet": "Rose Bouquet",
   "item.tutorialmod.pink_rose_bouquet": "Pink Rose Bouquet",
+  "item.tutorialmod.pick_beni": "Pick Beni",
 
   "block.tutorialmod.silly_ingot_block": "Block of Silly Ingot",
   "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
+  "block.tutorialmod.silly_ore_block": "Silly Cat Ore",
+  "block.tutorialmod.silly_deepslate_ore_block": "Silly Cat Deepslate Ore",
+  "block.tutorialmod.silly_cat_block": "Block of Silly Cat",
 
   "itemgroup.tutorialmod.silly_cat_items": "Silly Cat Items",
-  "itemgroup.tutorialmod.garnet_items": "Boring Garnet Items"
+  "itemgroup.tutorialmod.garnet_items": "Boring Garnet Items",
+  "itemgroup.tutorialmod.legendary_items": "Legendary Items"
 }

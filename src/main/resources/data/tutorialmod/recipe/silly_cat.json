@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "tutorialmod:silly_cat_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "tutorialmod:silly_cat"
+  }
+}

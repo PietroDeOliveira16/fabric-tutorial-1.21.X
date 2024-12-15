@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "silly_ingot",
+  "ingredient": {
+    "item": "tutorialmod:silly_cat"
+  },
+  "result": {
+    "id": "tutorialmod:silly_ingot"
+  }
+}

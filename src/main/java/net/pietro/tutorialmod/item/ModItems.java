@@ -14,6 +14,7 @@ public class ModItems {
     public static final Item SILLY_INGOT = registerItem("silly_ingot", new Item(new Item.Settings()));
     public static final Item ROSE_BOUQUET = registerItem("rose_bouquet", new Item(new Item.Settings()));
     public static final Item PINK_ROSE_BOUQUET = registerItem("pink_rose_bouquet", new Item(new Item.Settings()));
+    public static final Item PICK_BENI = registerItem("pick_beni", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);

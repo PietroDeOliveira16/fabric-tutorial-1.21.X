@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:silly_ingot_block",
+    "tutorialmod:pink_garnet_block",
+    "tutorialmod:silly_ore_block",
+    "tutorialmod:silly_deepslate_ore_block",
+    "tutorialmod:silly_cat_block"
+  ]
+}

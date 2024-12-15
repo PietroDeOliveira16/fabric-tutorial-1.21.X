@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:silly_ingot_block",
+    "tutorialmod:silly_ore_block",
+    "tutorialmod:silly_cat_block"
+  ]
+}
