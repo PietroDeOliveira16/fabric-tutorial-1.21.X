@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "tutorialmod:silly_ingot"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SFS",
+    " S "
+  ],
+  "result": {
+    "count": 3,
+    "id": "tutorialmod:cat_bomb"
+  }
+}

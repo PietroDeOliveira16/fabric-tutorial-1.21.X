@@ -23,6 +23,7 @@ public class ModItemGroups {
                       entries.add(ModBlocks.SILLY_ORE_BLOCK);
                       entries.add(ModBlocks.SILLY_DEEPSLATE_ORE_BLOCK);
                       entries.add(ModBlocks.SILLY_CAT_BLOCK);
+                      entries.add(ModItems.CAT_BOMB);
                     }).build());
 
     public static final ItemGroup GARNET_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -32,6 +33,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.tutorialmod.garnet_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
+                        entries.add(ModItems.CHISEL);
                     }).build());
 
     public static final ItemGroup LEGENDARY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,

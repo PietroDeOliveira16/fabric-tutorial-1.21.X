@@ -4,6 +4,8 @@
   "item.tutorialmod.rose_bouquet": "Rose Bouquet",
   "item.tutorialmod.pink_rose_bouquet": "Pink Rose Bouquet",
   "item.tutorialmod.pick_beni": "Pick Beni",
+  "item.tutorialmod.chisel": "Chisel",
+  "item.tutorialmod.cat_bomb": "Cat Bomb",
 
   "block.tutorialmod.silly_ingot_block": "Block of Silly Ingot",
   "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
@@ -12,6 +14,6 @@
   "block.tutorialmod.silly_cat_block": "Block of Silly Cat",
 
   "itemgroup.tutorialmod.silly_cat_items": "Silly Cat Items",
-  "itemgroup.tutorialmod.garnet_items": "Boring Garnet Items",
+  "itemgroup.tutorialmod.garnet_items": "Boring Tutorial Items",
   "itemgroup.tutorialmod.legendary_items": "Legendary Items"
 }

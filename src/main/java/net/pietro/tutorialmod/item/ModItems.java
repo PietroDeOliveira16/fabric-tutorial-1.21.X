@@ -7,6 +7,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.pietro.tutorialmod.TutorialMod;
+import net.pietro.tutorialmod.item.custom.CatBombItem;
+import net.pietro.tutorialmod.item.custom.ChiselItem;
 
 public class ModItems {
 
@@ -15,6 +17,9 @@ public class ModItems {
     public static final Item ROSE_BOUQUET = registerItem("rose_bouquet", new Item(new Item.Settings()));
     public static final Item PINK_ROSE_BOUQUET = registerItem("pink_rose_bouquet", new Item(new Item.Settings()));
     public static final Item PICK_BENI = registerItem("pick_beni", new Item(new Item.Settings()));
+
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+    public static final Item CAT_BOMB = registerItem("cat_bomb", new CatBombItem(new Item.Settings().maxCount(16)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
